@@ -1,0 +1,7 @@
+{
+  "name": "fileOpen",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
