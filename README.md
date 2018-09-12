@@ -16,30 +16,24 @@ This demo shows how to work with pdf-files on android device and provide offline
 
 # System requirements
 
-Ionic:
+### Ionic:
 
-   ionic (Ionic CLI)  : 4.1.2
+   - ionic (Ionic CLI)  : 4.1.2
+   - Ionic Framework    : ionic-angular 3.9.2
+   - @ionic/app-scripts : 3.2.0
 
-   Ionic Framework    : ionic-angular 3.9.2
+#### Cordova:
 
-   @ionic/app-scripts : 3.2.0
-
-Cordova:
-
-   cordova (Cordova CLI) : not installed
-
-   Cordova Platforms     : not available
-
-   Cordova Plugins       : cordova-plugin-ionic-keyboard 2.1.2, 
-   
-   cordova-plugin-ionic-webview 2.1.3, (and 10 other plugins)
+   - cordova (Cordova CLI) : not installed
+   - Cordova Platforms     : not available
+   - Cordova Plugins       : cordova-plugin-ionic-keyboard 2.1.2, 
+   - cordova-plugin-ionic-webview 2.1.3, (and 10 other plugins)
 
 
-System:
+### System:
 
-   NodeJS : v6.7.0 
-   
-   npm    : 3.10.3
+   - NodeJS : v6.7.0 
+   - npm    : 3.10.3
 
 # How to build and run the demo
 1. Make sure you have the right version of nodejs, npm and ionic already installed. As well you need cordova
