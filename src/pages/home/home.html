@@ -1,14 +1,23 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Ionic File Viewer and Opener
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <h5>Choose local PDF and open</h5>
+  <button ion-button full (click)="chooseAndOpen()">Choose and Open</button>
+<br>
+<h5>Donwload and view a PDF</h5>
+  <button ion-button full (click)="downloadPdf()">Download PDF</button>
+  <button ion-button full (click)="openDownloadedPdf()">Open downloaded PDF</button>
+  <br>
+  <button ion-button full (click)="deleteDownloadedPdf()">Delete downloaded PDF</button>
+<br>
+<h5>Work with App-Directory</h5>
+  <button ion-button full (click)="createDir()">Create Directory</button>
+  <button ion-button full (click)="downloadToDir()">Download PDF to Directory</button>
+  <button ion-button full (click)="openPdffromDir()">Open PDF from Directory</button>
 </ion-content>
